@@ -1,0 +1,14 @@
+
+------------ Running the Cordapp ------------
+
+./gradlew clean deployNodes
+gradlew clean deployNodes
+
+build/nodes/runnodes
+build/nodes/runnodes.bat
+
+------------  Run flow ------------
+
+start shipmentFlow model: Cybertruck , owner: "O=SpaceX,L=Hawthorn,C=US" sendTo: SpaceX
+
+run vaultQuery contractStateType: com.template.states.Carstate
